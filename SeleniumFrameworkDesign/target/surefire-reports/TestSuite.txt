@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 23.132 s <<< FAILURE! - in TestSuite
-submitOrder(mertkanCompany.tests.SubmitOrderTest)  Time elapsed: 2.688 s  <<< FAILURE!
-java.lang.RuntimeException: java.io.FileNotFoundException: File 'C:\Selenium-TestNG\SeleniumFrameworkDesign\src\test\java\data\PurchaseOrder.json' does not exist
-	at mertkanCompany.tests.SubmitOrderTest.getData(SubmitOrderTest.java:47)
-
