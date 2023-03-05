@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-05T21:57:04 EET" name="Suite" finished-at="2023-03-05T21:59:01 EET" duration-ms="116288">
+    <groups>
+      <group name="Regression">
+        <method signature="ECommerceTestCase4.fillForm(java.util.HashMap)[pri:0, instance:mertkanCompany.ECommerceTestCase4@1a72a540]" name="fillForm" class="mertkanCompany.ECommerceTestCase4"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-03-05T21:57:04 EET" name="End to end framework test" finished-at="2023-03-05T21:59:00 EET" duration-ms="115852">
+      <class name="mertkanCompany.ECommerceTestCase4">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:mertkanCompany.ECommerceTestCase4@1a72a540]" started-at="2023-03-05T21:57:04 EET" name="configureAppium" finished-at="2023-03-05T21:57:21 EET" duration-ms="16505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="preSetupGeneralStore()[pri:0, instance:mertkanCompany.ECommerceTestCase4@1a72a540]" started-at="2023-03-05T21:57:22 EET" name="preSetupGeneralStore" finished-at="2023-03-05T21:57:24 EET" duration-ms="2920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetupGeneralStore -->
+        <test-method signature="fillForm(java.util.HashMap)[pri:0, instance:mertkanCompany.ECommerceTestCase4@1a72a540]" started-at="2023-03-05T21:57:24 EET" name="fillForm" data-provider="getData" finished-at="2023-03-05T21:58:12 EET" duration-ms="47302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Rümeysa, country=Ireland, gender=female}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="preSetupGeneralStore()[pri:0, instance:mertkanCompany.ECommerceTestCase4@1a72a540]" started-at="2023-03-05T21:58:12 EET" name="preSetupGeneralStore" finished-at="2023-03-05T21:58:14 EET" duration-ms="2373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetupGeneralStore -->
+        <test-method signature="fillForm(java.util.HashMap)[pri:0, instance:mertkanCompany.ECommerceTestCase4@1a72a540]" started-at="2023-03-05T21:58:14 EET" name="fillForm" data-provider="getData" finished-at="2023-03-05T21:58:59 EET" duration-ms="45121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Mertkan, country=Ireland, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mertkanCompany.ECommerceTestCase4@1a72a540]" started-at="2023-03-05T21:58:59 EET" name="tearDown" finished-at="2023-03-05T21:59:00 EET" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mertkanCompany.ECommerceTestCase4 -->
+    </test> <!-- End to end framework test -->
+    <test started-at="2023-03-05T21:59:01 EET" name="Error validations test" finished-at="2023-03-05T21:59:01 EET" duration-ms="0">
+    </test> <!-- Error validations test -->
+  </suite> <!-- Suite -->
+</testng-results>
